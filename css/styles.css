@@ -152,6 +152,7 @@ body {
 
 .item-link-studio {
     position:relative;
+    color: #404bbf;
    
 }
 
@@ -170,14 +171,14 @@ body {
 /* -----hero------- */
 
 .hero {
-    /* max-width: 1440px; */
+    max-width: 1440px;
     margin-inline: auto;
     padding: 188px 0;
     background-color: #2E2F42;
     background-image:  linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .mein-title {
@@ -334,7 +335,7 @@ body {
 
 
 .menu-social-link:hover,
-.menu-social-link:hover {
+.menu-social-link:focus {
     background-color: #404BBF;
 } 
 
@@ -445,6 +446,7 @@ body {
 
 .footer-container {
     display: flex;
+    align-items: baseline
     /* gap:120px; */
 }
 
